@@ -19,10 +19,9 @@ body {
 
 div .pesquisa {
     grid-area: pesquisa;
-    background-color: brown;
+    background-color: rgba(202, 189, 189, 0.418);
     color: white;
-    border-radius: 7px;
-    text-align: center;
+    border-radius: 13px;
     padding: 8px;
 }
 
@@ -38,12 +37,15 @@ div .video {
 
 div .descricao {
     grid-area: descricao;
-    background-color: rgb(91, 88, 255);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     border-radius: 7px;
-    text-align: center;
     padding: 20px;
     width: 1000px;
+}
+.texto{
+    position: relative;
+    bottom:40px;
 }
 
 div .recomendacoes {
