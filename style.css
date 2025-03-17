@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: 50px auto 100px;
+    grid-template-areas: 
+    "pesquisa pesquisa"
+    "video recomendacoes"
+    "descricao recomendacoes";
+    gap: 10px;
+    column-gap: 150px;
+    row-gap: auto 500px 500px;
+    padding: 10px;
+    height: 95vh;
+}
+
+div .pesquisa {
+    grid-area: pesquisa;
+    background-color: brown;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 8px;
+}
+
+div .video {
+    grid-area: video;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 1000px;
+}
+
+div .descricao {
+    grid-area: descricao;
+    background-color: rgb(91, 88, 255);
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 20px;
+    width: 1000px;
+}
+
+div .recomendacoes {
+    grid-area: recomendacoes;
+    background-color: rgb(42, 126, 165);
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 20px;
+}
