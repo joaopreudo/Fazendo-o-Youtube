@@ -20,7 +20,7 @@ body {
 div .pesquisa {
     grid-area: pesquisa;
     background-color: rgba(202, 189, 189, 0.418);
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 13px;
     padding: 8px;
 }
@@ -50,9 +50,13 @@ div .descricao {
 
 div .recomendacoes {
     grid-area: recomendacoes;
-    background-color: rgb(42, 126, 165);
-    color: white;
+    background-color: rgb(220, 219, 219);
+    color: rgb(0, 0, 0);
     border-radius: 7px;
     text-align: center;
+    padding: 20px;
+}
+
+.espaco {
     padding: 20px;
 }
